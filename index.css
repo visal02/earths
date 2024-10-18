@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+
+    background-image: url(./img/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    & .heading{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding-top: 20px;
+        & .title{
+            display: flex;
+            margin: 50px;
+            gap: 20px;
+            font-size: 1.3rem;
+            & a{
+                text-decoration: none;
+                transition: 0.5s;
+            }  
+        }
+        & .title h1:hover{
+            color: greenyellow;
+        }
+        & .menu{
+            display: flex;
+            margin: 50px;
+            gap: 20px;
+            font-size: 1.3rem;
+                & a{
+                    text-decoration: none;
+                    gap: 10px;
+                }
+        }
+        & .menu a:hover{
+            color: red;
+        }
+    }
+    & .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+        font-size: 12rem;
+        color: greenyellow;
+    }
+}
