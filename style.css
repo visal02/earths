@@ -15,7 +15,7 @@ body{
     --color-black: #272727;
 }
 .header{
-    background-image: url(../img/image7.png);
+    background-image: url(image7.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
@@ -183,7 +183,7 @@ body{
     }
 }
 .main{
-    background-image: url(../img/image5.png);
+    background-image: url(image5.png);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
